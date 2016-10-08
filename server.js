@@ -7,8 +7,8 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    
-    `article-one : {
+    'article-one': {
+                
                 title: "Article One | Nithin Alex John",
                 heading: "First heading for article one",
                 date: "October 08, 2016",
@@ -25,10 +25,11 @@ var articles = {
                                         This is the third para content for my first article....
                                     </p>
                         ` 
-                },
+    
+    
+                    },
                 
-                
-    `article-two:{
+    'article-two':  {
                 title: "Article Two | Saayooj",
                 heading: "First heading for article two",
                 date: "November 08, 2016",
@@ -47,7 +48,7 @@ var articles = {
                         `
                 },
                 
-    `article-three:{
+    'article-three': {
                 title: "Article Three | Sherly",
                 heading: "First heading for article three",
                 date: "December 08, 2016",
@@ -64,7 +65,7 @@ var articles = {
                             This is the third para content for my third article....
                         </p>
                         `
-                };
+                }
 };
 
 
