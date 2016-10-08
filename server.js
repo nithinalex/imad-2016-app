@@ -21,11 +21,12 @@ var articleOne = {
                         
                         <p>
                             This is the third para content for my first article....
-                        </p>` 
+                        </p>
+                        ` 
 }
 
 
-Function createTemplate (data){
+function createTemplate (data){
             
             var title = data.title;
             var date = data.date;
@@ -78,7 +79,7 @@ Function createTemplate (data){
                                     
                         </html>
                     
-                    `    
+                    `   ; 
                     
         return htmlTemplate;            
 }            
