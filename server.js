@@ -65,7 +65,27 @@ var articles = {
                             This is the third para content for my third article....
                         </p>
                         `
+                },
+                
+    'article-four': {
+                title: "Article Four | Sunny",
+                heading: "First heading for article four",
+                date: "December 08, 2017",
+                content: `
+                        <p>
+                            This is the first para content for my fourth article....
+                        </p>
+                        
+                        <p>
+                            This is the second para content for my fourth article....
+                        </p>
+                        
+                        <p>
+                            This is the third para content for my fourth article....
+                        </p>
+                        `
                 }
+                
 };
 
 
